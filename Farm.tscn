@@ -1,0 +1,51 @@
+[gd_scene load_steps=7 format=3 uid="uid://daqb6rk0p3pva"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_t7v64"]
+
+[sub_resource type="Environment" id="Environment_14c3m"]
+background_mode = 2
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_jv4jb"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_o1bn1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xqpul"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_x7wqs"]
+
+[node name="Farm" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+mesh = SubResource("PlaneMesh_t7v64")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.434743, 0.59788287, 0)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_14c3m")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, -1.09082585e-07, -1.3664538e-07, 0, -0.7815205, 0.6238797, -1.7484555e-07, -0.6238797, -0.7815205, 0, 3.656321, -9.171762)
+
+[node name="Player" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8743982, 3.8669372)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
+shape = SubResource("CapsuleShape3D_jv4jb")
+
+[node name="Camera3D" type="Camera3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.39977932, 0)
+mesh = SubResource("CapsuleMesh_o1bn1")
+
+[node name="CowEnemy" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7801745, 0.7898028, -2.5337276)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CowEnemy"]
+shape = SubResource("BoxShape3D_xqpul")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CowEnemy"]
+mesh = SubResource("BoxMesh_x7wqs")
