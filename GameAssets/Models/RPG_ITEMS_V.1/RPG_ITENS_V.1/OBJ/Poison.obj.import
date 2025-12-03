@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://svrmd28e1m8d"
+path="res://.godot/imported/Poison.obj-92cc446f93bda0474641df4bf18ecafb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Poison.obj-92cc446f93bda0474641df4bf18ecafb.mesh"]
+
+source_file="res://GameAssets/Models/RPG_ITEMS_V.1/RPG_ITENS_V.1/OBJ/Poison.obj"
+dest_files=["res://.godot/imported/Poison.obj-92cc446f93bda0474641df4bf18ecafb.mesh", "res://.godot/imported/Poison.obj-92cc446f93bda0474641df4bf18ecafb.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

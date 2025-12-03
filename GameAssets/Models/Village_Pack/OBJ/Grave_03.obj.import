@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dsavylhyao4mo"
+path="res://.godot/imported/Grave_03.obj-839790c45a22db5167f9b4ac1d647c5f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Grave_03.obj-839790c45a22db5167f9b4ac1d647c5f.mesh"]
+
+source_file="res://GameAssets/Models/Village_Pack/OBJ/Grave_03.obj"
+dest_files=["res://.godot/imported/Grave_03.obj-839790c45a22db5167f9b4ac1d647c5f.mesh", "res://.godot/imported/Grave_03.obj-839790c45a22db5167f9b4ac1d647c5f.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

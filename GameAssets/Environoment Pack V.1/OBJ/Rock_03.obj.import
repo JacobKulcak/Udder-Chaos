@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b72wly5xgi73q"
+path="res://.godot/imported/Rock_03.obj-17daa302dd2cbc320c92f790116550cf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Rock_03.obj-17daa302dd2cbc320c92f790116550cf.mesh"]
+
+source_file="res://GameAssets/Environoment Pack V.1/OBJ/Rock_03.obj"
+dest_files=["res://.godot/imported/Rock_03.obj-17daa302dd2cbc320c92f790116550cf.mesh", "res://.godot/imported/Rock_03.obj-17daa302dd2cbc320c92f790116550cf.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

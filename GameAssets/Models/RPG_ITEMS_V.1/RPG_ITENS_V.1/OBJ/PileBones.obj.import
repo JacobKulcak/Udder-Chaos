@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://5sosr7eipaqr"
+path="res://.godot/imported/PileBones.obj-d21da6fea9e6a73c4f6448fe8925a150.mesh"
+
+[deps]
+
+files=["res://.godot/imported/PileBones.obj-d21da6fea9e6a73c4f6448fe8925a150.mesh"]
+
+source_file="res://GameAssets/Models/RPG_ITEMS_V.1/RPG_ITENS_V.1/OBJ/PileBones.obj"
+dest_files=["res://.godot/imported/PileBones.obj-d21da6fea9e6a73c4f6448fe8925a150.mesh", "res://.godot/imported/PileBones.obj-d21da6fea9e6a73c4f6448fe8925a150.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

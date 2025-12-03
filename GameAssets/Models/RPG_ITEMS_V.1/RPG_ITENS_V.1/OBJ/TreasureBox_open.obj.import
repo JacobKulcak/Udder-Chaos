@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cs47lanv1l5bk"
+path="res://.godot/imported/TreasureBox_open.obj-0993e5de7f6719b81c56a5cf2cad7ae3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/TreasureBox_open.obj-0993e5de7f6719b81c56a5cf2cad7ae3.mesh"]
+
+source_file="res://GameAssets/Models/RPG_ITEMS_V.1/RPG_ITENS_V.1/OBJ/TreasureBox_open.obj"
+dest_files=["res://.godot/imported/TreasureBox_open.obj-0993e5de7f6719b81c56a5cf2cad7ae3.mesh", "res://.godot/imported/TreasureBox_open.obj-0993e5de7f6719b81c56a5cf2cad7ae3.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

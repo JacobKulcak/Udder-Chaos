@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bxgikvlximrxp"
+path="res://.godot/imported/Barn.obj-ad9d12a1a1d9330f0095ed26e483a1bd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Barn.obj-ad9d12a1a1d9330f0095ed26e483a1bd.mesh"]
+
+source_file="res://GameAssets/OBJ/Barn.obj"
+dest_files=["res://.godot/imported/Barn.obj-ad9d12a1a1d9330f0095ed26e483a1bd.mesh", "res://.godot/imported/Barn.obj-ad9d12a1a1d9330f0095ed26e483a1bd.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
